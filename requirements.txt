@@ -1,0 +1,10 @@
+# Python outside Blender: data fetch, textures, label/edit passes, audio. Blender 5.2 brings its own Python for the scene scripts.
+# Tested with Python 3.14: every pin below installs from a binary wheel (rasterio 1.5.2 bundles GDAL).
+numpy==2.3.4
+scipy==1.16.3
+pillow==12.0.0
+opencv-python-headless==5.1.0.95
+# clip 02 only: Sentinel-2 reading and reprojection (sputnik.py)
+rasterio==1.5.2
+# optional: background removal for portrait backgrounds (fon_portreta.py)
+# rembg

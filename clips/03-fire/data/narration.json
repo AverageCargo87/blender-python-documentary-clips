@@ -1,0 +1,126 @@
+{
+ "clip": "03-fire",
+ "language": "ru",
+ "model": "eleven_v4",
+ "voice": "$ELEVENLABS_VOICE_ID",
+ "voice_settings": {
+  "stability": 0.5,
+  "similarity_boost": 0.75
+ },
+ "sample_rate": 24000,
+ "mode": "groups",
+ "clip_duration": 70.8,
+ "credit_cap": 520,
+ "note": "Phrases are read in groups for a connected intonation, then cut into sentences by letter timings (golos/G*.wav + golos/frazy.json); golos_raskladka.py places them on the timeline. '+' after a vowel marks stress. duration = measured length after cutting.",
+ "groups": [
+  {
+   "id": "G1",
+   "phrases": [
+    {
+     "id": "S1a",
+     "text": "Снача+ла лю+ди не уме+ли са+ми добыва+ть ого+нь.",
+     "start": 1.6,
+     "duration": 2.96
+    },
+    {
+     "id": "S1b",
+     "text": "Его+ бра+ли от де+рева, кото+рое зажгла+ мо+лния.",
+     "start": 7.6,
+     "duration": 2.88
+    }
+   ]
+  },
+  {
+   "id": "G2",
+   "phrases": [
+    {
+     "id": "S2a",
+     "text": "Горя+щую ве+тку уноси+ли в пеще+ру.",
+     "start": 14.4,
+     "duration": 2.52
+    },
+    {
+     "id": "S2b",
+     "text": "Там ого+нь берегли+: день и ночь не дава+ли ему+ пога+снуть.",
+     "start": 19.6,
+     "duration": 3.98
+    }
+   ]
+  },
+  {
+   "id": "G3",
+   "phrases": [
+    {
+     "id": "S3a",
+     "text": "Под Пеки+ном архео+логи раскопа+ли огро+мную пеще+ру.",
+     "start": 24.9,
+     "duration": 3.49
+    },
+    {
+     "id": "S3b",
+     "text": "Слой с золо+й и угля+ми в ней \u2014 шесть ме+тров.",
+     "start": 30.4,
+     "duration": 3.08
+    },
+    {
+     "id": "S4",
+     "text": "Зна+чит, костры+ здесь жгли мно+го ты+сяч лет.",
+     "start": 34.3,
+     "duration": 3.07
+    }
+   ]
+  },
+  {
+   "id": "G4",
+   "phrases": [
+    {
+     "id": "S5",
+     "text": "По+зже лю+ди научи+лись добыва+ть ого+нь са+ми.",
+     "start": 37.9,
+     "duration": 2.86
+    },
+    {
+     "id": "S6",
+     "text": "Его+ получа+ли тре+нием: па+лочку бы+стро крути+ли, пока+ не пойдёт дымо+к.",
+     "start": 41.1,
+     "duration": 4.24
+    },
+    {
+     "id": "S7",
+     "text": "И+ли би+ли ка+мнем о ка+мень и высека+ли и+скры.",
+     "start": 46.9,
+     "duration": 2.95
+    }
+   ]
+  },
+  {
+   "id": "G5",
+   "phrases": [
+    {
+     "id": "S8a",
+     "text": "На огне+ гото+вили еду+.",
+     "start": 53.7,
+     "duration": 1.93
+    },
+    {
+     "id": "S8b",
+     "text": "У костра+ гре+лись холо+дными ноча+ми.",
+     "start": 57.5,
+     "duration": 2.45
+    },
+    {
+     "id": "S9",
+     "text": "Ого+нь освеща+л тёмную пеще+ру.",
+     "start": 61.0,
+     "duration": 2.38
+    },
+    {
+     "id": "S10",
+     "text": "И отпу+гивал ди+ких звере+й.",
+     "start": 64.0,
+     "duration": 1.68
+    }
+   ]
+  }
+ ]
+}

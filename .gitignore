@@ -1,0 +1,12 @@
+# working data, downloads, frames, caches (6-34 GB per clip)
+work/
+release-assets/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+x264pass*
